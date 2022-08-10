@@ -1,0 +1,68 @@
+.board-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} 
+
+.board-page-container .board-header {
+    font-size: 2rem;
+  
+}
+
+.board-video-container {
+    background-image: url(../../photos/lori/village.jpg);
+    width: 100vw;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -2px 17px 20px 6px rgba(140,128,128,0.76);
+-webkit-box-shadow: -2px 17px 20px 6px rgba(140,128,128,0.76);
+-moz-box-shadow: -2px 17px 20px 6px rgba(140,128,128,0.76);
+}
+
+.homepage-video-mp4 {
+    border-radius: 30px;
+    background-color: transparent;
+    
+}
+
+.board-profiles {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-content: center;
+   align-items: center;
+    margin-top: 20px;
+    column-gap: 40px;
+
+}
+
+.board-container {
+    width: 300px;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.photo-image {
+    height: 200px;
+    border-radius: 20px;
+}
+.board-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+.baord-position-container {
+    margin: 10px;
+}
+.profile-description {
+    margin: 10px;
+}
